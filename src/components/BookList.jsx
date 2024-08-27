@@ -10,8 +10,8 @@ class BookList extends Component {
   render() {
     return (
       <>
-        <Row className="justify-content-center mt-5">
-          <Col xs={12} md={4} className="text-center">
+        <Row className="justify-content-center mt-2">
+          <Col xs={12} md={8} lg={6} className="text-center">
             <Form.Group>
               <Form.Control
                 type="search"
@@ -28,7 +28,7 @@ class BookList extends Component {
               b.title.toLowerCase().includes(this.state.searchQuery)
             )
             .map((b) => (
-              <Col xs={12} md={4} key={b.asin}>
+              <Col xs={12} md={6} lg={4} xl={2} key={b.asin}>
                 <SingleBook book={b} />
               </Col>
             ))}

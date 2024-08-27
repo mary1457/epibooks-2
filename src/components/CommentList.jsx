@@ -35,10 +35,10 @@ class CommentList extends Component {
        .map((comment) => (
            <>
            
-           <SingleComment comment={comment.comment}></SingleComment>
+           <SingleComment comment={comment.comment} ></SingleComment>
            <SingleComment comment={comment.rate}></SingleComment>
            <SingleComment comment={comment.author}></SingleComment>
-           <Button 
+           <Button className='w-50 m-2' variant='danger'
            onClick={() => this.handleClick(comment._id)}
            >Delete</Button>
            </>

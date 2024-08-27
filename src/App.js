@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <MyNav />
-      <Container>
+      <Container fluid className="p-0">
         <Welcome />
         {/* <AllTheBooks /> */}
         <BookList books={fantasy} />

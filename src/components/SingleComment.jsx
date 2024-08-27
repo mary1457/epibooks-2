@@ -7,7 +7,7 @@ class SingleComment extends Component {
     return (
       
              
-                <ListGroup.Item>{this.props.comment}</ListGroup.Item>
+                <ListGroup.Item className="rounded ">{this.props.comment}</ListGroup.Item>
             
                 
 

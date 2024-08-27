@@ -112,7 +112,7 @@ class AddComment extends Component {
         </Row>
         
        
-        <Button type="submit">Submit form</Button>
+        <Button type="submit">Submit</Button>
       </Form>
     )
   }
